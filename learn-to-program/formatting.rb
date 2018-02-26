@@ -15,3 +15,13 @@ puts str.ljust lineWidth
 puts str.center lineWidth
 puts str.rjust lineWidth
 puts str.ljust(lineWidth/2) + str.rjust(lineWidth/2)
+
+
+#upcase / capitalize
+letters = 'aAbBcCdDeE'
+puts letters.upcase
+puts letters.downcase
+puts letters.swapcase
+puts letters.capitalize
+puts ' a'.capitalize
+puts letters
