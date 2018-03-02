@@ -15,7 +15,7 @@ print 'whats city were you born?'
 city = gets.chomp
 city.capitalize!
 
-puts "your city is #{city}"
+puts "youre city is #{city}"
 
 print 'whats state?'
 state = gets.chomp
