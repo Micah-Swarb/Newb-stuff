@@ -1,23 +1,22 @@
-puts "Text to search through: "
+puts "Enter some text: "
 text = gets.chomp
-puts "Word to redact: "
+
+puts "Enter words to redact: "
 redact = gets.chomp
 
 words = text.split(" ")
-
-words.each do |word|
-  if word != redact
-    print word + " "
-  else
+words.each { |word|
+  if word == redact
     print "REDACTED "
-  end
-end
+  else
+ 		print word + " "
+  end }
 
 
 
 =begin
 
-Test text 
+Test text
 
 Say your prayers, little one
 Don't forget, my son
